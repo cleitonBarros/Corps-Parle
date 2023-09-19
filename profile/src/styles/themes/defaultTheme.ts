@@ -9,6 +9,7 @@ export const defaultTheme = {
     "WHITE-900": "#FFFFFF",
     "WHITE-600": "#F9F9F9",
     "WHITE-500": "#f5f5f5",
+    "WHITE-300": "#f5f5f570",
 
     "PINK-900": "#FF2D54",
     "PINK-300": "#FC7790",

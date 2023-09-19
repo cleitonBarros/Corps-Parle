@@ -1,12 +1,15 @@
+import { NavLink } from "react-router-dom";
+
+import logo from "../../assets/svg/logo.svg";
+import { SiderMenu } from "../sidebar";
+import logoName from "./../../assets/svg/logoname.svg";
 import * as S from "./style";
 
 import {
   EnvelopeSimple,
   InstagramLogo,
-  List,
   WhatsappLogo
 } from "@phosphor-icons/react";
-
 export function Header() {
   return (
     <S.Container>
@@ -32,11 +35,38 @@ export function Header() {
               </a>
             </li>
           </ul>
-          <div className="menu">
-            <List size={32} />
-          </div>
+          <SiderMenu />
         </div>
       </S.Text>
+      <S.Middle>
+        <figure>
+          <img src={logoName} alt="nome da clinica Corps Parle" />
+        </figure>
+      </S.Middle>
+      <S.Nav>
+        <ul>
+          <li>
+            <NavLink to="#">Inicio </NavLink>
+          </li>
+          <li>
+            <NavLink to="#">Quem Somos </NavLink>
+          </li>
+          <li>
+            <NavLink to="#">Profissionais </NavLink>
+          </li>
+          <li>
+            <NavLink to="#">
+              <img src={logo} alt="logo um corpo rosa" />
+            </NavLink>
+          </li>
+          <li>
+            <NavLink to="#">Serviço medico</NavLink>
+          </li>
+          <li>
+            <NavLink to="#">Contato</NavLink>
+          </li>
+        </ul>
+      </S.Nav>
     </S.Container>
   );
 }
