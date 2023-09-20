@@ -18,15 +18,4 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased;
   }
  
-  html ::-webkit-scrollbar {
-    width: 6px;
-  }
-
-  html ::-webkit-scrollbar-thumb {
-  background: black;
-  }
-    
-  html ::-webkit-scrollbar-track {
-    background: white;
-  }
 `;

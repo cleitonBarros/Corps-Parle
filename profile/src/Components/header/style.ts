@@ -79,23 +79,25 @@ export const Middle = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 2.25rem 0;
+  padding: 1.5rem 0;
 
   figure {
-    width: 50%;
+    width: 40%;
+    min-width: 250px;
     height: auto;
     img {
       width: 100%;
     }
   }
-
-  @media (${({ theme }) => theme.DEVICE.laptop}) {
+  @media (${({ theme }) => theme.DEVICE.tablet}) {
     figure {
-      width: 25%;
+      width: 24%;
       img {
         width: 100%;
       }
     }
+  }
+  @media (${({ theme }) => theme.DEVICE.laptop}) {
   }
 `;
 export const Nav = styled.nav`
@@ -104,7 +106,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1.25rem 10%;
+  padding: 1rem 10%;
   background-color: ${({ theme }) => theme.COLORS["WHITE-300"]};
 
   ul {
@@ -113,7 +115,6 @@ export const Nav = styled.nav`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 2rem;
     li {
       display: flex;
       align-items: center;
@@ -121,7 +122,6 @@ export const Nav = styled.nav`
       a {
         font-size: 1rem;
         font-family: "poppins";
-        font-weight: 700;
         color: ${({ theme }) => theme.COLORS["BLACK-600"]};
         transition: all 0.2s ease-in;
 
