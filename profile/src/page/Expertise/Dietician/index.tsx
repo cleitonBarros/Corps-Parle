@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import nutri_1 from "../../../assets/svg/nutricao_1.svg";
 import nutri_2 from "../../../assets/svg/nutricao_2.svg";
 import nutri_3 from "../../../assets/svg/nutricao_3.svg";
@@ -49,7 +47,7 @@ export function Dietician() {
       <S.container>
         <article className="finaltext">
           <h2>Água é a sua melhor amiga nesse processo</h2>
-          <Link to="#">Conheça nossa equipe</Link>
+          <a href="./../../Professionals">Conheça nossa equipe</a>
         </article>
       </S.container>
     </>

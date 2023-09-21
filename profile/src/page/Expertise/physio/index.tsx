@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import fisio_1 from "../../../assets/svg/Fisio_1.svg";
 import fisio_2 from "../../../assets/svg/Fisio_2.svg";
 import fisio_3 from "../../../assets/svg/fisio_3.svg";
@@ -49,7 +47,7 @@ export function Physio() {
       <S.container>
         <article className="finaltext">
           <h2>Também oferecemos acupuntura, yoga, massagem etc</h2>
-          <Link to="#">Conheça nossa equipe</Link>
+          <a href="./../../Professionals">Conheça nossa equipe</a>
         </article>
       </S.container>
     </>

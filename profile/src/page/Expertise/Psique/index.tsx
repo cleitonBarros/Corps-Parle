@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 import psique_1 from "../../../assets/svg/psique_1.svg";
 import psique_2 from "../../../assets/svg/psique_2.svg";
 import psique_3 from "../../../assets/svg/psique_3.svg";
@@ -49,7 +47,7 @@ export function Psique() {
       <S.container>
         <article className="finaltext">
           <h2>Será que Freud realmente explica tudo ?</h2>
-          <Link to="#">Conheça nossa equipe</Link>
+          <a href="./../../Professionals">Conheça nossa equipe</a>
         </article>
       </S.container>
     </>

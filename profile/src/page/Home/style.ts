@@ -39,6 +39,13 @@ export const container = styled.section`
     a {
       font-size: 1.125rem;
       font-weight: 600;
+      transition: all 1s;
+      text-transform: uppercase;
+
+      &:hover {
+        color: ${({ theme }) => theme.COLORS["PINK-900"]};
+        transform: scale(1.1);
+      }
     }
   }
   figure {
