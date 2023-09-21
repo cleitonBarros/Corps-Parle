@@ -76,6 +76,9 @@ export const Menu = styled.menu`
         font-size: 1.25rem;
         font-weight: 600;
         text-transform: uppercase;
+        &.active {
+          color: ${({ theme }) => theme.COLORS["PINK-300"]};
+        }
         &:hover {
           color: ${({ theme }) => theme.COLORS["PINK-300"]};
         }

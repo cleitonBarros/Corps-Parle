@@ -10,6 +10,25 @@ export const container = styled.section`
   flex-direction: column;
   gap: 2rem;
 
+  &:nth-child(2) {
+    article {
+      > div {
+        span {
+          &:nth-child(1) {
+            width: 40%;
+            height: 12px;
+          }
+          &:nth-child(2) {
+            display: none;
+          }
+          &:nth-child(3) {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
   .text-group {
     font-family: "Poppins", sans-serif;
     text-align: left;
@@ -54,6 +73,11 @@ export const container = styled.section`
   @media (${({ theme }) => theme.DEVICE.tablet}) {
     background-color: ${({ theme }) => theme.COLORS["WHITE-900"]};
     flex-direction: row;
+
+    &:nth-child(2) {
+      flex-direction: row-reverse;
+    }
+
     figure {
       width: 100%;
       min-width: 300px;

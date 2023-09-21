@@ -40,6 +40,7 @@ export const Box = styled.article`
     line-height: 1.4;
     font-size: 1rem;
     font-weight: 600;
+    text-align: justify;
   }
 
   > div {
@@ -72,11 +73,6 @@ export const Box = styled.article`
   @media (${({ theme }) => theme.DEVICE.tablet}) {
     max-width: 450px;
     min-width: 320px;
-
-    > div {
-      align-items: flex-start;
-      width: 60%;
-    }
   }
 
   @media (${({ theme }) => theme.DEVICE.laptop}) {

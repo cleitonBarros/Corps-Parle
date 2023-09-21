@@ -1,14 +1,23 @@
 import styled from "styled-components";
 
-export const container = styled.section`
-  min-height: 100vh;
+export const Bg = styled.div`
   width: 100%;
+  display: flex;
+  justify-content: center;
+
+  @media (${({ theme }) => theme.DEVICE.tablet}) {
+    background-color: ${({ theme }) => theme.COLORS["PINK-100"]};
+  }
+`;
+export const container = styled.section`
+  width: 100%;
+  max-width: 80rem;
   padding: 0 2rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-
+  gap: 2rem;
   .text-group {
     font-family: "Poppins", sans-serif;
     text-align: left;
@@ -44,9 +53,9 @@ export const container = styled.section`
   }
 
   @media (${({ theme }) => theme.DEVICE.tablet}) {
-    background-color: ${({ theme }) => theme.COLORS["PINK-100"]};
+    min-height: 100vh;
+
     flex-direction: row;
-    gap: 2rem;
 
     .text-group {
       max-width: 350px;

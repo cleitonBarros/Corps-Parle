@@ -125,6 +125,11 @@ export const Nav = styled.nav`
         color: ${({ theme }) => theme.COLORS["BLACK-600"]};
         transition: all 0.2s ease-in;
 
+        &.active {
+          color: ${({ theme }) => theme.COLORS["PINK-900"]};
+          font-weight: 700;
+        }
+
         &:hover {
           color: ${({ theme }) => theme.COLORS["PINK-900"]};
         }

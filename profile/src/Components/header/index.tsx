@@ -46,13 +46,13 @@ export function Header() {
       <S.Nav>
         <ul>
           <li>
-            <NavLink to="#">Inicio </NavLink>
+            <NavLink to="/">Inicio </NavLink>
           </li>
           <li>
-            <NavLink to="#">Quem Somos </NavLink>
+            <NavLink to="/about">Quem Somos </NavLink>
           </li>
           <li>
-            <NavLink to="#">Profissionais </NavLink>
+            <NavLink to="/professionals">Profissionais </NavLink>
           </li>
           <li>
             <NavLink to="#">
@@ -60,10 +60,10 @@ export function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="#">Serviço medico</NavLink>
+            <NavLink to="/services">Serviço medico</NavLink>
           </li>
           <li>
-            <NavLink to="#">Contato</NavLink>
+            <NavLink to="contact">Contato</NavLink>
           </li>
         </ul>
       </S.Nav>

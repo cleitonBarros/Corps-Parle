@@ -36,27 +36,27 @@ export function SiderMenu() {
             </div>
             <ul>
               <li>
-                <NavLink to="#" onClick={() => setOpen(false)}>
+                <NavLink to="/" onClick={() => setOpen(false)}>
                   Inicio
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" onClick={() => setOpen(false)}>
+                <NavLink to="/about" onClick={() => setOpen(false)}>
                   Quem Somos
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" onClick={() => setOpen(false)}>
+                <NavLink to="/professionals" onClick={() => setOpen(false)}>
                   Profissionais
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" onClick={() => setOpen(false)}>
+                <NavLink to="/service" onClick={() => setOpen(false)}>
                   Serviço medico
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" onClick={() => setOpen(false)}>
+                <NavLink to="/contact" onClick={() => setOpen(false)}>
                   Contato
                 </NavLink>
               </li>
