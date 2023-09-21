@@ -51,8 +51,8 @@ export function SiderMenu() {
                 </NavLink>
               </li>
               <li>
-                <NavLink to="/service" onClick={() => setOpen(false)}>
-                  Serviço medico
+                <NavLink to="/services" onClick={() => setOpen(false)}>
+                  Serviços medicos
                 </NavLink>
               </li>
               <li>

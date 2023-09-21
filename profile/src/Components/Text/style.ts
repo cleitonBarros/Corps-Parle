@@ -10,6 +10,7 @@ export const Box = styled.article`
 
   hgroup {
     h3 {
+      line-height: 1.1;
       font-size: 1.25rem;
       font-weight: 600;
       font-family: "Poppins", sans-serif;
@@ -40,7 +41,7 @@ export const Box = styled.article`
     line-height: 1.4;
     font-size: 1rem;
     font-weight: 600;
-    text-align: justify;
+    text-align: left;
   }
 
   > div {
@@ -71,16 +72,14 @@ export const Box = styled.article`
     }
   }
   @media (${({ theme }) => theme.DEVICE.tablet}) {
-    max-width: 450px;
+    max-width: 420px;
     min-width: 320px;
   }
 
   @media (${({ theme }) => theme.DEVICE.laptop}) {
-    justify-content: space-evenly;
-
     hgroup {
       h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
       }
       .title {
         display: flex;
@@ -96,7 +95,7 @@ export const Box = styled.article`
         }
         h2 {
           text-transform: uppercase;
-          font-size: 1.5rem;
+          font-size: 1rem;
           font-weight: 600;
           font-family: "Fira Sans", sans-serif;
           color: ${({ theme }) => theme.COLORS["BLACK-900"]};

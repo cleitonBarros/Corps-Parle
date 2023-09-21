@@ -60,7 +60,7 @@ export function Header() {
             </NavLink>
           </li>
           <li>
-            <NavLink to="/services">Serviço medico</NavLink>
+            <NavLink to="/services">Serviços medicos</NavLink>
           </li>
           <li>
             <NavLink to="contact">Contato</NavLink>

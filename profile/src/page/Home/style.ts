@@ -79,9 +79,5 @@ export const container = styled.section`
         font-size: 1.5rem;
       }
     }
-    figure {
-      width: 100%;
-      max-width: 600px;
-    }
   }
 `;

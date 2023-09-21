@@ -28,6 +28,13 @@ export const container = styled.section`
       }
     }
   }
+  &:nth-child(3) {
+    article {
+      > div {
+        display: none;
+      }
+    }
+  }
 
   .text-group {
     font-family: "Poppins", sans-serif;
@@ -79,15 +86,11 @@ export const container = styled.section`
     }
 
     figure {
-      width: 100%;
-      min-width: 300px;
-      max-width: 450px;
+      min-width: 350px;
+      max-width: 400px;
     }
   }
   @media (${({ theme }) => theme.DEVICE.laptop}) {
     gap: 0;
-    justify-content: space-evenly;
-    figure {
-    }
   }
 `;
