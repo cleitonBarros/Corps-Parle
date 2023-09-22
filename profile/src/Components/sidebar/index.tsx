@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import logo from "../../assets/svg/logo.svg";
+import logo from "../../assets/svg/logoname.svg";
 import { UseWindowSize } from "../../hook/useWidthSize";
 import * as S from "./style";
 
@@ -27,13 +27,9 @@ export function SiderMenu() {
         <Dialog.Overlay />
         <S.Sidebar className={open ? "open" : ""}>
           <S.Menu>
-            <div className="logo">
-              <p>clinica</p>
-              <h2>
-                Corps <span>P</span>arle
-              </h2>
+            <figure className="logo">
               <img src={logo} alt="logo" />
-            </div>
+            </figure>
             <ul>
               <li>
                 <NavLink to="/" onClick={() => setOpen(false)}>
@@ -52,7 +48,7 @@ export function SiderMenu() {
               </li>
               <li>
                 <NavLink to="/services" onClick={() => setOpen(false)}>
-                  Serviços medicos
+                  Serviços
                 </NavLink>
               </li>
               <li>

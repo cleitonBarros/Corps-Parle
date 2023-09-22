@@ -106,7 +106,7 @@ export const Nav = styled.nav`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 1rem 10%;
+  padding: 0.5rem 10%;
   background-color: ${({ theme }) => theme.COLORS["WHITE-300"]};
 
   ul {
@@ -120,6 +120,10 @@ export const Nav = styled.nav`
       align-items: center;
       justify-content: center;
       a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
         font-size: 1rem;
         font-family: "poppins";
         color: ${({ theme }) => theme.COLORS["BLACK-600"]};
@@ -127,7 +131,6 @@ export const Nav = styled.nav`
 
         &.active {
           color: ${({ theme }) => theme.COLORS["PINK-900"]};
-          font-weight: 700;
         }
 
         &:hover {
@@ -141,7 +144,6 @@ export const Nav = styled.nav`
     display: flex;
   }
   @media (${({ theme }) => theme.DEVICE.laptop}) {
-    padding: 1.25rem 12%;
     ul {
       li {
         a {

@@ -86,6 +86,19 @@ export const Menu = styled.menu`
     }
   }
 
+  figure {
+    width: 90%;
+    height: auto;
+    img {
+      width: 100%;
+    }
+  }
+  @media (${({ theme }) => theme.DEVICE.mobile}) {
+    figure {
+      width: 75%;
+    }
+  }
+
   @media (${({ theme }) => theme.DEVICE.tablet}) {
     transform: translateX(-100%);
   }
