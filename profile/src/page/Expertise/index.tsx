@@ -24,7 +24,9 @@ export function Services() {
           </li>
           <li className="card card-3">
             <Link className="psique" to="/services/menteepsique">
-              Mente e Psiquê
+              Mente <br />
+              e <br />
+              Psiquê
             </Link>
           </li>
         </S.Slider>

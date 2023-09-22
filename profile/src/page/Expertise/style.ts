@@ -86,6 +86,7 @@ export const Slider = styled.ul`
       padding: 1rem;
       background-color: ${({ theme }) => theme.COLORS["PINK-900"]};
       color: ${({ theme }) => theme.COLORS["WHITE-600"]};
+      text-align: center;
     }
   }
 
