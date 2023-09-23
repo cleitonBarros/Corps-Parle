@@ -2,12 +2,17 @@ import psique_1 from "../../../assets/svg/psique_1.svg";
 import psique_2 from "../../../assets/svg/psique_2.svg";
 import psique_3 from "../../../assets/svg/psique_3.svg";
 import title from "../../../assets/svg/titlePsique.svg";
+import { Head } from "../../../Components/Head";
 import { Text } from "../../../Components/Text/";
 import * as S from "./style";
 
 export function Psique() {
   return (
     <>
+      <Head
+        title="Mente e psiquê"
+        description="PSIQUIATRIA, PSICOLOGIA e PSICANÁLISE"
+      />
       <S.Figure id="titulo">
         <img src={title} alt="titulo da pagina escrito Psique" />
       </S.Figure>

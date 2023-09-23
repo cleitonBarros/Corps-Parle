@@ -1,12 +1,17 @@
 import doctor from "../../assets/svg/doctor.svg";
 import golas from "../../assets/svg/golas.svg";
 import meditacao from "../../assets/svg/umeditation.svg";
+import { Head } from "../../Components/Head";
 import { Text } from "../../Components/Text/";
 import * as S from "./style";
 
 export function About() {
   return (
     <>
+      <Head
+        title="Sobre nos"
+        description="Corps Parle é uma empresa inovadora que tem como principal objetivo proporcionar a restauração completa da saúde física e mental de seus clientes. Fundada com a visão de oferecer um tratamento holístico e personalizado, a empresa busca atender às necessidades únicas de cada indivíduo, com uma abordagem focada na recuperação integral do corpo e da mente. A missão da Corps Parle é ser líder no setor de bem-estar e saúde, buscando constantemente oferecer soluções inovadoras e de qualidade para ajudar as pessoas a alcançarem uma vida mais saudável, equilibrada e plena. Corps Parle acredita que o bem-estar verdadeiro é alcançado quando corpo e mente estão em harmonia. Com uma abordagem centrada no cliente, a empresa se dedica a compreender profundamente as necessidades individuais, respeitando suas particularidades e proporcionando soluções personalizadas para cada cliente."
+      />
       <S.container>
         <figure>
           <img

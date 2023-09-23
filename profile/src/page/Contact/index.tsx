@@ -1,3 +1,4 @@
+import { Head } from "../../Components/Head";
 import * as S from "./style";
 
 import { EnvelopeSimple, MapPinLine, Phone } from "@phosphor-icons/react";
@@ -6,6 +7,7 @@ export function Contact() {
   return (
     <>
       <S.container>
+        <Head title="Contato" description="Entre em contato com a gente" />
         <header>
           <div></div>
           <h2>contato</h2>

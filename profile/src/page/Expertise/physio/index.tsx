@@ -2,12 +2,17 @@ import fisio_1 from "../../../assets/svg/Fisio_1.svg";
 import fisio_2 from "../../../assets/svg/Fisio_2.svg";
 import fisio_3 from "../../../assets/svg/fisio_3.svg";
 import title from "../../../assets/svg/titlePhysio.svg";
+import { Head } from "../../../Components/Head";
 import { Text } from "../../../Components/Text";
 import * as S from "./style";
 
 export function Physio() {
   return (
     <>
+      <Head
+        title="Fisioterapia"
+        description="TRAUMATO-ORTOPÉDICA, PILATES e QUIROPRAXIA"
+      />
       <S.Figure id="titulo">
         <img src={title} alt="titulo da pagina escrito fisioterapia" />
       </S.Figure>

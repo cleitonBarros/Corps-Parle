@@ -2,12 +2,17 @@ import nutri_1 from "../../../assets/svg/nutricao_1.svg";
 import nutri_2 from "../../../assets/svg/nutricao_2.svg";
 import nutri_3 from "../../../assets/svg/nutricao_3.svg";
 import title from "../../../assets/svg/titleNutri.svg";
+import { Head } from "../../../Components/Head";
 import { Text } from "../../../Components/Text/";
 import * as S from "./style";
 
 export function Dietician() {
   return (
     <>
+      <Head
+        title="Nutrição"
+        description="Perda de peso e reeducação alimentar, Melhorar o desempenho esportivo e Pré-parto e pós-parto"
+      />
       <S.Figure id="titulo">
         <img src={title} alt="titulo da pagina escrito nutrição" />
       </S.Figure>

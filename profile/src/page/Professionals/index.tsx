@@ -4,12 +4,17 @@ import foto_3 from "../../assets/professionals/foto3.svg";
 import foto_4 from "../../assets/professionals/foto4.svg";
 import foto_5 from "../../assets/professionals/foto5.svg";
 import foto_6 from "../../assets/professionals/foto6.svg";
+import { Head } from "../../Components/Head";
 import { Text } from "../../Components/Text/";
 import * as S from "./style";
 
 export function Professional() {
   return (
     <>
+      <Head
+        title="Profissionais"
+        description="Aqui voce encontrará todos os profissionais que trabalham com a gente"
+      />
       <S.container>
         <figure>
           <img src={foto_1} alt="Homem de camisa rosa" />
@@ -69,7 +74,7 @@ export function Professional() {
         <Text
           title="Dr.Pedro"
           subtitle="Psiquiatra"
-          main="Dr. Pedro é um psiquiatra altamente qualificado, com graduação em Medicina e especialização em Psiquiatria pela Universidade Federal do Rio de Jnaiero (UFRJ). Ele continuou sua educação com um mestrado em Psicofarmacologia, contribuindo para sua compreensão abrangente das questões relacionadas à saúde mental. Pedro possui uma ampla experiência no campo da psiquiatria, tendo trabalhado em uma variedade de configurações clínicas. Ele tem décadas de experiência no tratamento de pacientes com uma variedade de distúrbios mentais, incluindo depressão, transtorno de ansiedade, transtorno bipolar e esquizofrenia. Além disso, ele é conhecido por sua compaixão e empatia no atendimento aos pacientes."
+          main="Dr. Pedro é um psiquiatra altamente qualificado, com graduação em Medicina e especialização em Psiquiatria pela Universidade Federal do Rio de Janeiro (UFRJ). Ele continuou sua educação com um mestrado em Psicofarmacologia, contribuindo para sua compreensão abrangente das questões relacionadas à saúde mental. Pedro possui uma ampla experiência no campo da psiquiatria, tendo trabalhado em uma variedade de configurações clínicas. Ele tem décadas de experiência no tratamento de pacientes com uma variedade de distúrbios mentais, incluindo depressão, transtorno de ansiedade, transtorno bipolar e esquizofrenia. Além disso, ele é conhecido por sua compaixão e empatia no atendimento aos pacientes."
         />
       </S.container>
       <S.container>

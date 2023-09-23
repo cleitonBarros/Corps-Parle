@@ -15,7 +15,7 @@ export function Header() {
     <S.Container>
       <S.Text>
         <article>
-          <p>Também realizando consultas online !</p>
+          <p>Também realizamos consultas online !</p>
         </article>
         <div className="social-group">
           <ul className="social-link">

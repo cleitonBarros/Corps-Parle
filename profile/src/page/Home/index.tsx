@@ -1,10 +1,15 @@
 import woman from "../../assets/svg/woman.svg";
+import { Head } from "../../Components/Head";
 import * as S from "./style";
 
 export function Home() {
   return (
     <S.Bg>
       <S.container>
+        <Head
+          title="Inicio"
+          description="Proporcionamos a restauração da sua saúde física e mental, permitindo que você viva uma vida extraordinariamente longa e plena."
+        />
         <div className="text-group">
           <h2>MEDICINA PARA TODOS</h2>
           <p>
