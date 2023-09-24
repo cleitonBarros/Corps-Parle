@@ -79,7 +79,7 @@ export const Middle = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 4rem 0 0;
+  padding: 2rem 0;
 
   figure {
     width: 40%;
@@ -90,7 +90,7 @@ export const Middle = styled.section`
     }
   }
   @media (${({ theme }) => theme.DEVICE.tablet}) {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
     figure {
       width: 24%;
       img {
