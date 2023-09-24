@@ -10,6 +10,7 @@ export const Bg = styled.div`
   }
 `;
 export const container = styled.section`
+  margin-top: -150px;
   width: 100%;
   max-width: 80rem;
   padding: 0 2rem;
@@ -60,6 +61,8 @@ export const container = styled.section`
   }
 
   @media (${({ theme }) => theme.DEVICE.tablet}) {
+    margin-top: 0;
+
     min-height: 100vh;
 
     flex-direction: row;

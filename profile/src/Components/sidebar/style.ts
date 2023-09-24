@@ -30,7 +30,6 @@ export const Sidebar = styled(Dialog.Content)`
 export const Menu = styled.menu`
   padding: 0 3rem;
   width: 100%;
-  height: 31rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
