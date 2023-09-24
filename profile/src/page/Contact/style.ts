@@ -148,7 +148,6 @@ export const container = styled.section`
   }
 
   @media (${({ theme }) => theme.DEVICE.tablet}) {
-    min-height: 100vh;
     article {
       flex-direction: row;
       aside {

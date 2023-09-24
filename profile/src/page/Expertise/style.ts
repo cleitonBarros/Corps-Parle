@@ -94,7 +94,6 @@ export const Slider = styled.ul`
   }
 
   @media (${({ theme }) => theme.DEVICE.tablet}) {
-    min-height: 100vh;
     gap: 0;
     flex-direction: row;
     .card {

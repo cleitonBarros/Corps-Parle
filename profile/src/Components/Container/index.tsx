@@ -8,5 +8,6 @@ export const Container = styled.main`
   flex-direction: column;
 
   @media (${({ theme }) => theme.DEVICE.tablet}) {
+    min-height: 100vh;
   }
 `;

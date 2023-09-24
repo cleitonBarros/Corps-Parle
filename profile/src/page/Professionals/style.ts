@@ -71,7 +71,6 @@ export const container = styled.section`
   @media (${({ theme }) => theme.DEVICE.tablet}) {
     background-color: ${({ theme }) => theme.COLORS["WHITE-900"]};
     flex-direction: row;
-    min-height: 100vh;
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
