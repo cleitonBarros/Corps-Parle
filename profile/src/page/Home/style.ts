@@ -10,10 +10,9 @@ export const Bg = styled.div`
   }
 `;
 export const container = styled.section`
-  margin-top: -150px;
   width: 100%;
   max-width: 80rem;
-  padding: 0 2rem;
+  padding: 4rem 2rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
